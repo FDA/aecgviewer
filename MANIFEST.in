@@ -1,0 +1,15 @@
+include pyproject.toml
+
+# Include the README and related image files
+include *.md
+recursive-include images *
+
+# Include the license file
+include COPYING
+
+# Include the history of changes file
+include HISTORY.md
+
+# Include configuration and example files
+recursive-include src/aecgviewer/cfg *
+recursive-include src/aecgviewer/resources *
